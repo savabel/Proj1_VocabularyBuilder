@@ -3,25 +3,77 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="css/foundation.css">
     
-    <!-- This is how you would link your custom stylesheet -->
-    <link rel="stylesheet" href="css/app.css">
-    <script src="js/vendor/modernizr.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Import Custom Style Sheet-->
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+
+  <title>Vocabulary Builder</title>
 
 </head>
 
 <body>
+  
+  <div class="container">
+
+    <div class="row">
+      <div class="input-field col s12">
+        <h1 id="appName">Vocabulary Builder</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <h2 id="wordSearchedTitle">Your Word</h2>
+      </div>
+      <div class="input-field col s2 offset-s5" id="wordSearchedColumn">
+        <input value="Type Your Word Here" id="wordSearchedInput" type="text" class="validate">
+        <label class="active" for="userWord"></label>
+        <button class="btn" id="wordSearchedButton">Search</button>
+      </div>
+    </div>
+
+    <div class="row">
+      
+      <div class="input-field col s6" id="wordDefinitionColumn">
+        <h2 id="wordDefinitionTitle">Definition(s)</h2>
+        <ul id="wordDefinitionList"><li>Definition 1</li><li>Definition 2</li><li>Definition 3</li></ul>
+      </div>
+      
+      <div class="input-field col s2" id="wordSynonymColumn">
+        <h2 id="wordSynonymTitle">Synonym(s)</h2>
+        <ul id="wordSynonymList"><li>Synonym 1</li><li>Synonym 2</li><li>Synonym 3</li></ul>
+      </div>
+      
+      <div class="input-field col s2" id="wordAntonymColumn">
+        <h2 id="wordAntonymTitle">Antonym(s)</h2>
+        <ul id="wordAntonymList"><li>Antonym 1</li><li>Antonym 2</li><li>Antonym 3</li></ul>
+      </div>
     
-    <script src="../js/app.js"></script>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/foundation.min.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
+    </div>
+
+    <div class="row">
+      
+      <div class="input-field col s12" id="associatedWordsColumn">
+        <h2 id="associatedWordsTitle">Associated Words</h2>
+      </div>
+    
+    </div>
+  
+  </div>
+  
+  <script src="../js/index.js"></script>
+
 </body>
 </html>
