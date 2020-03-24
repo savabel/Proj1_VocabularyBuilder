@@ -1,0 +1,101 @@
+body {
+    background: #313848;
+}
+
+#appName {
+    color: #768b8b;
+    text-align: center;
+}
+
+#wordSearchedColumn {
+    display: block;
+    margin: auto;
+}
+
+#wordSearchedTitle {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin: -10px 0px auto;
+    background-color: #313848;
+}
+
+#wordSearchedInput {
+    display: block;
+    margin: auto;
+    color: #768b8b;
+}
+
+#wordSearchedButton {
+    margin-top: 25px;
+}
+
+#wordDefinitionColumn {
+    margin-top: 100px;
+    min-height: 100px;
+    border: 1px solid #768b8b;
+    color: #768b8b;
+    text-align: center;
+}
+
+#wordDefinitionTitle {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin: -10px 0px auto;
+    background-color: #313848;
+}
+
+#wordSynonymColumn {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    min-height: 100px;
+    border: 1px solid #768b8b;
+    color: #768b8b;
+    text-align: center;
+}
+
+#wordSynonymTitle {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin: -10px 0px auto;
+    background-color: #313848;
+}
+
+#wordAntonymColumn {
+    margin-top: 100px;
+    min-height: 100px;
+    border: 1px solid #768b8b;
+    color: #768b8b;
+    text-align: center;
+}
+
+#wordAntonymTitle {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin: -10px 0px auto;
+    background-color: #313848;
+}
+
+#associatedWordsColumn {
+    margin-top: 100px;;
+    min-height: 100px;
+    color: #768b8b;
+    text-align: center;
+}
+
+#associatedWordsTitle {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin: -10px 0px auto;
+    background-color: #313848;
+}
