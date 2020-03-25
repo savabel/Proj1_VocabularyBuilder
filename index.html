@@ -17,7 +17,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!--Import Custom Style Sheet-->
-  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
 
   <title>Vocabulary Builder</title>
 
@@ -37,43 +37,48 @@
       <div>
         <h2 id="wordSearchedTitle">Your Word</h2>
       </div>
-      <div class="input-field col s2 offset-s5" id="wordSearchedColumn">
-        <input value="Type Your Word Here" id="wordSearchedInput" type="text" class="validate">
+      <div class="input-field col s4" id="wordSearchedColumn">
+        <input value="Type Your Word Here" id="wordSearchedInput" type="text" class="validate">  <!-- input field to capture word entered by user -->
         <label class="active" for="userWord"></label>
-        <button class="btn" id="wordSearchedButton">Search</button>
+        <button class="btn" id="wordSearchedButton">Search</button>  <!-- button to initiate API data pull from event listener -->
       </div>
     </div>
 
     <div class="row">
       
+      <!-- display definitions -->
       <div class="input-field col s6" id="wordDefinitionColumn">
         <h2 id="wordDefinitionTitle">Definition(s)</h2>
-        <ul id="wordDefinitionList"><li>Definition 1</li><li>Definition 2</li><li>Definition 3</li></ul>
+        <ul id="wordDefinitionList"></ul>  <!-- unordered list to add list items for definitions from API data pull -->
       </div>
       
+      <!-- display synonyms -->
       <div class="input-field col s2" id="wordSynonymColumn">
         <h2 id="wordSynonymTitle">Synonym(s)</h2>
-        <ul id="wordSynonymList"><li>Synonym 1</li><li>Synonym 2</li><li>Synonym 3</li></ul>
+        <ul id="wordSynonymList"></ul>  <!-- unordered list to add list items for synonyms from API data pull -->
       </div>
       
+      <!-- display antonyms -->
       <div class="input-field col s2" id="wordAntonymColumn">
         <h2 id="wordAntonymTitle">Antonym(s)</h2>
-        <ul id="wordAntonymList"><li>Antonym 1</li><li>Antonym 2</li><li>Antonym 3</li></ul>
+        <ul id="wordAntonymList"></ul>  <!-- unordered list to add list items for antonyms from API data pull -->
       </div>
     
     </div>
 
     <div class="row">
       
+      <!-- display associated words in a bubble diagram -->
       <div class="input-field col s12" id="associatedWordsColumn">
         <h2 id="associatedWordsTitle">Associated Words</h2>
+        <span id="associatedWordsDiagram"></span>  <!-- span to add associated words bubble diagram-->
       </div>
     
     </div>
   
   </div>
   
-  <script src="../js/index.js"></script>
+  <script src="/js/index.js"></script>
 
 </body>
 </html>
