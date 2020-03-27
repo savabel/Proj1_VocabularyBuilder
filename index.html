@@ -12,16 +12,12 @@
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+ 
   <!--Import Google Icon Font-->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
   <!--Import Custom Style Sheet-->
-<<<<<<< HEAD
   <link rel="stylesheet" type="text/css" href="./css/index.css">
-=======
-  <link rel="stylesheet" type="text/css" href="/css/index.css">
->>>>>>> 4a164addd9b60ca5b262ae995f71ca81c6ccbab1
 
   <title>Vocabulary Builder</title>
 
@@ -75,18 +71,20 @@
       <!-- display associated words in a bubble diagram -->
       <div class="input-field col s12" id="associatedWordsColumn">
         <h2 id="associatedWordsTitle">Associated Words</h2>
-        <span id="associatedWordsDiagram"></span>  <!-- span to add associated words bubble diagram-->
+        <!-- I changed it from a span back to an svg to enable to add a diagram-->
+        <svg id="associatedWordsDiagram"></svg>  <!-- span to add associated words bubble diagram-->
       </div>
     
     </div>
   
   </div>
-  
-<<<<<<< HEAD
+
+   <!-- This is jQuery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <!-- this is d3 -->
+   <script src="https://d3js.org/d3.v5.min.js" charset="UTF-8"></script>
   <script src="./js/index.js"></script>
-=======
-  <script src="/js/index.js"></script>
->>>>>>> 4a164addd9b60ca5b262ae995f71ca81c6ccbab1
+
 
 </body>
 </html>
