@@ -99,3 +99,30 @@ body {
     margin: -10px 0px auto;
     background-color: #313848;
 }
+
+.link{
+    stroke: white;
+    stroke-width: 2px;
+}
+
+.triggernode circle {
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 1.5px;
+    cursor: text;
+  }
+
+  .node circle {
+    fill: #ddddff;
+    stroke: #000;
+    stroke-width: 1.5px;
+    cursor: pointer;
+  }
+
+  text {
+    font: 17px sans-serif;
+    text-anchor: middle;
+    pointer-events: None;
+    font-weight: bold;
+  }
+  
