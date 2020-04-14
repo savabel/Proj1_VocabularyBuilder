@@ -36,7 +36,7 @@ body {
     min-height: 100px;
     border: 1px solid #768b8b;
     color: #768b8b;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #wordDefinitionTitle {
@@ -50,12 +50,10 @@ body {
 
 #wordSynonymColumn {
     margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
     min-height: 100px;
     border: 1px solid #768b8b;
     color: #768b8b;
-    text-align: center;
+
 }
 
 #wordSynonymTitle {
@@ -72,7 +70,6 @@ body {
     min-height: 100px;
     border: 1px solid #768b8b;
     color: #768b8b;
-    text-align: center;
 }
 
 #wordAntonymTitle {

@@ -9,7 +9,7 @@ We were required to create an online app that uses two APIs and a front-end fram
 
 ## Website
 
-https://tbd.github.io/tbd/
+https://loisaleghe.github.io/project1/
 
 
 ## Getting Started
@@ -39,8 +39,14 @@ No special hardware or software is required to use this web app.  All you need i
 ## Built With
 
 HTML
-CSS (Foundation and custom CSS)
+Materialize front-end css framework
+Custom CSS
 JavaScript
+JQuery
+JSON
+API - Meriam Webster Dictionary (Collegiate): https://dictionaryapi.com/products/api-collegiate-dictionary
+API - Meriam Webster Thesaurus: https://dictionaryapi.com/products/api-collegiate-thesaurus
+API - Datamuse: https://www.datamuse.com/api/
 
 
 ## Author(s)

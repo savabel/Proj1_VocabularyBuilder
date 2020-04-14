@@ -38,7 +38,7 @@
         <h2 id="wordSearchedTitle">Your Word</h2>
       </div>
       <div class="input-field col s4" id="wordSearchedColumn">
-        <input value="Type Your Word Here" id="wordSearchedInput" type="text" class="validate">  <!-- input field to capture word entered by user -->
+        <input placeholder="Type Your Word Here" id="wordSearchedInput" type="text" class="validate">  <!-- input field to capture word entered by user -->
         <label class="active" for="userWord"></label>
         <button class="btn" id="wordSearchedButton">Search</button>  <!-- button to initiate API data pull from event listener -->
       </div>
@@ -47,19 +47,19 @@
     <div class="row">
       
       <!-- display definitions -->
-      <div class="input-field col s6" id="wordDefinitionColumn">
+      <div class="input-field col s12" id="wordDefinitionColumn">
         <h2 id="wordDefinitionTitle">Definition(s)</h2>
         <ul id="wordDefinitionList"></ul>  <!-- unordered list to add list items for definitions from API data pull -->
       </div>
       
       <!-- display synonyms -->
-      <div class="input-field col s2" id="wordSynonymColumn">
+      <div class="input-field col s12" id="wordSynonymColumn">
         <h2 id="wordSynonymTitle">Synonym(s)</h2>
         <ul id="wordSynonymList"></ul>  <!-- unordered list to add list items for synonyms from API data pull -->
       </div>
       
       <!-- display antonyms -->
-      <div class="input-field col s2" id="wordAntonymColumn">
+      <div class="input-field col s12" id="wordAntonymColumn">
         <h2 id="wordAntonymTitle">Antonym(s)</h2>
         <ul id="wordAntonymList"></ul>  <!-- unordered list to add list items for antonyms from API data pull -->
       </div>
@@ -72,7 +72,7 @@
       <div class="input-field col s12" id="associatedWordsColumn">
         <h2 id="associatedWordsTitle">Associated Words</h2>
         <!-- I changed it from a span back to an svg to enable to add a diagram-->
-        <svg id="associatedWordsDiagram"></svg>  <!-- span to add associated words bubble diagram-->
+        <svg id="associatedWordsDiagram"></svg>  <!-- svg to add associated words bubble diagram-->
       </div>
     
     </div>
@@ -84,6 +84,8 @@
    <!-- this is d3 -->
    <script src="https://d3js.org/d3.v5.min.js" charset="UTF-8"></script>
   <script src="./js/index.js"></script>
+  <script src="./js/app.js"></script>
+
 
 
 </body>
